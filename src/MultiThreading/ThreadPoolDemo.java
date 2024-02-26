@@ -14,6 +14,5 @@ public class ThreadPoolDemo {
 
         while (!executorService.isTerminated()){}
         System.out.println("finished all threads");
-
     }
 }
